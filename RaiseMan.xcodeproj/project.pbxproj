@@ -15,6 +15,10 @@
 		CD5297BD15962F07003E3EB0 /* RMDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5297BB15962F07003E3EB0 /* RMDocument.xib */; };
 		CD5297C015962F07003E3EB0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5297BE15962F07003E3EB0 /* MainMenu.xib */; };
 		CD5297C815962F29003E3EB0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5297C715962F29003E3EB0 /* Person.m */; };
+		CD529845159A8F5E003E3EB0 /* txt.icns in Resources */ = {isa = PBXBuildFile; fileRef = CD529844159A8F5E003E3EB0 /* txt.icns */; };
+		CD529882159CA6D1003E3EB0 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD529881159CA6D1003E3EB0 /* PreferenceController.m */; };
+		CD529889159CA72E003E3EB0 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD529888159CA72E003E3EB0 /* AppController.m */; };
+		CD52988B159CA844003E3EB0 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD52988A159CA843003E3EB0 /* Preferences.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,12 @@
 		CD5297BF15962F07003E3EB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CD5297C615962F29003E3EB0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		CD5297C715962F29003E3EB0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		CD529844159A8F5E003E3EB0 /* txt.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = txt.icns; sourceTree = "<group>"; };
+		CD529880159CA6D1003E3EB0 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		CD529881159CA6D1003E3EB0 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
+		CD529887159CA72E003E3EB0 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ../AppController.h; sourceTree = "<group>"; };
+		CD529888159CA72E003E3EB0 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = ../AppController.m; sourceTree = "<group>"; };
+		CD52988A159CA843003E3EB0 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +97,18 @@
 		CD5297AC15962F07003E3EB0 /* RaiseMan */ = {
 			isa = PBXGroup;
 			children = (
+				CD529887159CA72E003E3EB0 /* AppController.h */,
+				CD529888159CA72E003E3EB0 /* AppController.m */,
+				CD5297BE15962F07003E3EB0 /* MainMenu.xib */,
+				CD52988A159CA843003E3EB0 /* Preferences.xib */,
+				CD529880159CA6D1003E3EB0 /* PreferenceController.h */,
+				CD529881159CA6D1003E3EB0 /* PreferenceController.m */,
 				CD5297B815962F07003E3EB0 /* RMDocument.h */,
 				CD5297B915962F07003E3EB0 /* RMDocument.m */,
 				CD5297C615962F29003E3EB0 /* Person.h */,
 				CD5297C715962F29003E3EB0 /* Person.m */,
 				CD5297BB15962F07003E3EB0 /* RMDocument.xib */,
-				CD5297BE15962F07003E3EB0 /* MainMenu.xib */,
+				CD529844159A8F5E003E3EB0 /* txt.icns */,
 				CD5297AD15962F07003E3EB0 /* Supporting Files */,
 			);
 			path = RaiseMan;
@@ -166,6 +182,8 @@
 				CD5297B715962F07003E3EB0 /* Credits.rtf in Resources */,
 				CD5297BD15962F07003E3EB0 /* RMDocument.xib in Resources */,
 				CD5297C015962F07003E3EB0 /* MainMenu.xib in Resources */,
+				CD529845159A8F5E003E3EB0 /* txt.icns in Resources */,
+				CD52988B159CA844003E3EB0 /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +197,8 @@
 				CD5297B315962F07003E3EB0 /* main.m in Sources */,
 				CD5297BA15962F07003E3EB0 /* RMDocument.m in Sources */,
 				CD5297C815962F29003E3EB0 /* Person.m in Sources */,
+				CD529882159CA6D1003E3EB0 /* PreferenceController.m in Sources */,
+				CD529889159CA72E003E3EB0 /* AppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +328,7 @@
 				CD5297C515962F07003E3EB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
